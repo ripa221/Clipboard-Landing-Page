@@ -265,7 +265,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 130px;
-margin-bottom: 130px;
+margin:0 30px 130px 30px;
+
 }
 
 /* Last Section */
@@ -519,6 +520,21 @@ filter: invert(56%) sepia(81%) saturate(356%) hue-rotate(124deg) brightness(91%)
 
     .footer-socials {
         justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .snippets-2nd-sec {
+        gap: 50px;
+    }
+
+    .snippets-img {
+        width: 55%;
+        margin-left: 0;
+    }
+
+    .snippets-text {
+        margin: 40px 40px 40px 0;
     }
 }
 
