@@ -1,0 +1,531 @@
+:root {
+    --Green500: hsl(171, 66%, 44%);
+    --Blue100: hsl(233, 100%, 69%);
+    --Gray700: hsl(210, 10%, 33%);
+    --Gray500: hsl(201, 11%, 66%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+
+h1, h2, h3, button {
+    font-weight: 600; 
+}
+
+h1,h2,h3 {
+    color: var(--Gray700);
+}
+
+p {
+    color: var(--Gray500);
+}
+
+/*  Header Section */
+.hero-section {
+    background-image: url("images/bg-header-desktop.png");
+    background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 130px;
+    padding-bottom: 100px;
+
+}
+
+.logo-img {
+    width: 125px;
+    margin-bottom: 50px;
+}
+
+h1 {
+   
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+   
+}
+
+.head-text{
+   
+    max-width: 600px;  
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+
+.btn-ios, .btn-mac {
+    color: white;
+    font-size: 1rem;
+    border: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 15px 35px;
+    /* 0px- horizontal 3px-vertical 0px-mixes 0.3-mix-black */
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+    /* 0.2s means in hover changed it so fast but if i make 4s it will so slowly.work like a animation */
+    transition: 0.2s;
+    
+    
+}
+
+.btn-ios {
+    background-color: var(--Green500);
+
+}
+
+.btn-mac {
+    background-color: var(--Blue100);
+}
+
+.btn-ios:hover, .btn-mac:hover {
+    opacity: 0.8;
+}
+
+/* for all h2 */
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.1rem;
+     margin-bottom: 15px;
+}
+
+/* for all h3 */
+h3 {
+    font-size: 1.7rem;
+}
+
+/* Track of snippets section */
+
+.snippets {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.snippets-1st-sec {
+    
+    padding-top: 80px;
+    padding-bottom: 60px;
+
+}
+
+
+
+.snippets-1st-para {
+     max-width: 700px;  
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+   
+}
+
+.snippets-2nd-sec {
+    display: flex;
+   overflow: hidden;
+    flex-direction: row;
+    gap: 100px;
+    width: 100%;
+    
+}
+
+.snippets-img {
+    justify-items: flex-start;
+    width: 50%;
+    /* for cutting image left side use this and overflow hidden */
+    margin-left: -40px;  
+
+}
+
+.snippets-text {   
+    justify-items: flex-start ;
+    margin: 70px 100px 40px 0;
+}
+
+.heading-3 {
+margin-bottom: 20px;
+}
+
+.snippets-2nd-para {
+    max-width: 400px;
+    text-align: left;
+    line-height: 1.8;
+    margin: 0 auto 80px auto;
+}
+
+
+/* Access Clipboard section */
+
+.access {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      width: 100%;
+     
+}
+
+.access-1st-sec {
+     padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+
+
+.access-text {
+    max-width: 700px;  
+    margin: 0 auto 60px auto;
+    line-height: 1.8;
+}
+
+/* Supercharge Workflow Section */
+
+.workflow {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      width: 100%;
+}
+
+.workflow-1st-sec {
+     padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.workflow-1st-para {
+     max-width: 700px;  
+    margin: 0 auto 60px auto;
+    
+}
+
+.workflow-2nd-sec {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 40px 150px 40px;
+     gap: 40px;
+}
+
+.workflow-sub-sec {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-1 {
+    margin-top: 25px;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.workflow-head-3 {
+    margin-bottom: 10px;
+}
+
+.workflow-para-2nd {  
+   
+    line-height: 1.8;
+ max-width: 400px;
+}
+
+/* Icon Image Section */
+
+.icon-img-sec {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 130px;
+margin-bottom: 130px;
+}
+
+/* Last Section */
+
+.last-sec {
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.last-text {
+     max-width: 680px;  
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Footer Section */
+
+.footer {
+   
+    width: 100%;
+   padding: 40px 0;
+    background-color:hsl(220, 18%, 97%);
+}
+
+.footer-container {
+    max-width: 1440px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.footer-logo-img {
+   width: 55px;
+    height: auto;
+   
+}
+
+.footer-links {
+    display: flex;
+    /* This pushes the socials to the right */
+    flex-grow: 1; 
+    margin-left: 100px; 
+    gap: 80px;
+    font-weight: bold;
+}
+
+.link-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Align text to left inside the group */
+    gap: 15px;
+}
+
+.link-group a {
+    text-decoration: none;
+    color: var(--Gray700);
+    font-size: 1rem;
+    transition: color 0.2s ease;
+   
+}
+
+.link-group a:hover {
+    color: var(--Green500);
+}
+
+.footer-socials {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.social-icon {
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.social-icon:hover {
+filter: invert(56%) sepia(81%) saturate(356%) hue-rotate(124deg) brightness(91%) contrast(85%);
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 746px){
+
+
+    h1 {
+        font-size: 2rem;
+        padding: 0 15px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        padding: 0 15px;
+    }
+
+    h3 {
+        font-size:1.5rem;
+    }
+
+    .hero-section, 
+    .snippets, 
+    .access, 
+    .workflow, 
+    .last-sec, 
+    .footer {
+        width: 100% !important;
+        overflow-x: hidden; 
+        /* Prevents side-scrolling */
+    }
+
+    /* Resets specific paragraphs that are trapped at 600px/700px */
+    .head-text, 
+    .snippets-1st-para, 
+    .access-text, 
+    .workflow-1st-para, 
+    .last-text {
+        max-width: 100% !important;
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    /* This fixes the images that were set to width: 50% */
+    .snippets-img {
+        width: 100% !important;
+        margin: 0 auto 30px auto;
+    }
+
+   .snippets-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        text-align: center;    
+        margin: 0 auto;        
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .snippets-2nd-para {
+        text-align: center;     
+        margin: 0 auto 40px auto; 
+        max-width: 100%;
+    }
+
+    .snippets-text h3 {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .hero-section {
+        background-image: url("images/bg-header-mobile.png"); 
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .button-group {
+        flex-direction: column; 
+        width: 100%;
+        padding: 0 30px;
+        gap: 15px;
+    }
+
+    .btn-ios, .btn-mac {
+        width: 100%; 
+    }
+
+    .head-text {
+        padding: 0 25px;
+    }
+
+    
+    .snippets-1st-para {
+        padding: 0 25px;
+    }
+
+    .snippets-2nd-sec {
+        flex-direction: column; 
+        gap: 50px;
+    }
+
+    .snippets-img, .access-img {
+        width: 100%;
+        margin-left: 0; 
+        padding: 0 20px;
+    }
+
+    .snippets-text {
+        margin: 0;
+        width: 100%;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    .snippets-2nd-para {
+        text-align: center;
+        margin: 0 auto 40px auto;
+    }
+
+    
+    .access-text {
+        padding: 0 25px;
+    }
+
+    
+    .workflow-2nd-sec {
+        flex-direction: column; 
+        gap: 50px;
+    }
+
+    
+    .icon-img-sec {
+        flex-direction: column;
+        gap: 60px;
+        margin-bottom: 80px;
+    }
+
+    
+    .last-sec {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer-container {
+        flex-direction: column; 
+        gap: 40px;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column; 
+        margin-left: 0; 
+        gap: 30px;
+    }
+
+    .link-group {
+        text-align: center;
+    }
+
+    .footer-socials {
+        justify-content: center;
+    }
+}
+
+    
+
+
+
+
+
+
