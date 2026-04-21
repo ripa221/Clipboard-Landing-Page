@@ -15,8 +15,8 @@ Users should be able to:
 
 ## Links
 
-- Live Site: https://your-live-site-link.com
-- Solution: https://frontendmentor.io/your-solution-link
+- Live Site: https://ripa221.github.io/Clipboard-Landing-Page/
+- Solution: https://www.frontendmentor.io/solutions/clipboard-landing-page-S9xLoY5Hmg
 
 
 ## Built with
