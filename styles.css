@@ -264,9 +264,14 @@ margin-bottom: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 130px;
-margin:0 30px 130px 30px;
+gap: 80px;
+flex-wrap: wrap;
 
+}
+
+.icon-img-sec img {
+    max-width: 120px;
+    height: auto;
 }
 
 /* Last Section */
