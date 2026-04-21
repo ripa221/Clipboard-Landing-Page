@@ -12,3 +12,23 @@ Users should be able to:
 
 ## Screenshot
 
+
+## Links
+
+- Live Site: https://your-live-site-link.com
+- Solution: https://frontendmentor.io/your-solution-link
+
+
+## Built with
+
+- HTML5
+- CSS (Flexbox)
+- Responsive design
+
+## What I learned
+First I was confused how to do the hero section. My first approach code was wrong. After finish the hero section I felt nervous that maybe my skill is not that strong. Then Gemini told me About MDN where I can read the code and understand it. After doing one by one section I felt confidence.
+I was afraid about my responsive. Because after update code to github live site website sometimes look not right. But I fixed it. I learn many things like without set the height I can set with padding. Then how to handle image.
+
+## Author
+
+- Frontend Mentor - @ripa221
