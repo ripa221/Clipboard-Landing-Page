@@ -534,7 +534,11 @@ filter: invert(56%) sepia(81%) saturate(356%) hue-rotate(124deg) brightness(91%)
     }
 
     .footer-socials {
-        justify-content: center;
+         display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+        
      
     }
 }
