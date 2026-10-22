@@ -158,6 +158,7 @@ h3 {
 .snippets-img {
     justify-items: flex-start;
     width: 50%;
+    object-fit: contain;
     /* for cutting image left side use this and overflow hidden */
     margin-left: -40px;  
 
@@ -517,39 +518,44 @@ filter: invert(56%) sepia(81%) saturate(356%) hue-rotate(124deg) brightness(91%)
 
     .footer-container {
         flex-direction: column; 
-        gap: 40px;
+        gap: 25px;
         text-align: center;
     }
 
     .footer-links {
         flex-direction: column; 
         margin-left: 0; 
-        gap: 30px;
+        gap: 15px;
     }
 
     .link-group {
         text-align: center;
+        display: contents;
     }
 
     .footer-socials {
         justify-content: center;
+     
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 747px) {
     .snippets-2nd-sec {
         gap: 50px;
     }
 
     .snippets-img {
         width: 55%;
-        margin-left: 0;
+        margin-left: -40px;
+        
     }
 
     .snippets-text {
         margin: 40px 40px 40px 0;
     }
 }
+
+
 
     
 
